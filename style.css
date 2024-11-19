@@ -1,0 +1,224 @@
+
+*{
+    font-family: "Montserrat", serif;
+}
+
+:root{
+    --clrw: rgb(255, 255, 255);
+    --clry: rgb(255, 237, 0);
+}
+
+
+/* Calassi colori testi */
+
+.clrw{
+    color: var(--clrw);
+}
+
+.clry{
+    color: var(--clry);
+}
+
+
+/* Parte 1 */
+
+.art-1{
+    height: 60vh;
+    background-image: url(./media/bg-1a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art-1-a{
+    /* border: 1px solid white; */
+    min-height: 100px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.art-1-b{
+    /* border: 1px solid white; */
+    min-height: 100px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.art-1-logo{
+    height: 50px;
+}
+
+.art-1-tit{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.art1-data{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+
+}
+
+.art1-ora{
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+.btn-outline-danger{
+    border: var(--clry) solid 2px;
+    border-radius: 25px;
+    color: var(--clry);
+}
+
+.btn-outline-danger:hover{
+    background-color: transparent;
+    border: var(--clry) solid 2px;
+
+}
+
+
+/* Parte 2 */
+
+.art-2{
+    height: 40vh;
+    background-color: rgb(27, 21, 64);
+}
+
+.img-art2{
+    height: 400px;
+
+}
+
+/* .art-2-a{
+      border: 1px solid white;
+}
+
+.art-2-b{
+    border: 1px solid white;
+} */
+
+
+/* Parte 3 */
+
+.art-3{
+    background-image: url(./media/bg-2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+}
+
+.oggetto{
+    background-color: rgb(27, 21, 64);
+    position: absolute;
+    top: 370px;
+    left: calc(50% - 250px);
+    /* border: 1px solid white; */
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+.ic-cal-1{
+    margin-left: 20px;
+    border: var(--clry) solid 1px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--clry);
+
+}
+
+.frm-1{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+.prova1-1{
+    margin-top: 15px;
+    color: var(--clrw);
+}
+
+.btn-warning{
+    background-color: var(--clry);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Parte 4 */
+
+.art-4{
+    background-color: rgb(20, 9, 37);
+    height: 50vh;
+}
+
+.art-4-a{
+    height: 300px;
+}
+
+
+
+/* Parte 5 */
+
+.art-5{
+    height: 100vh;
+    background-image: url(./media/bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.art-5-a{
+    height: 500px;
+}
+
+
+
+
+/* Footer ( .footer) */
+
+.art-foot{
+    height: 4vh;
+    margin-left: 0;
+    padding-left: 0;
+    background-color: rgb(33, 37, 41);
+
+}
+
+.text-footer{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:600px){
+    .art-1{
+        height: 120vh;
+    }
+    .art-2{
+        height: 70vh;
+    }
+
+    .img-art2{
+        height: 200px;
+    
+    }
+
+    .art-4{
+        height: 80vh;
+    }
+    .art-foot{
+        height: 8vh;
+    }
+    .oggetto{
+        top: 100px;
+        left: calc(50% - 150px);
+        height: 600px;
+        width: 300px;
+}
